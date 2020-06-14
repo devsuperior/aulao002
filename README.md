@@ -1,16 +1,22 @@
 # Como ler arquivo texto em Java (aplicação real) - Aulão #002
-
-DevSuperior - Prof. Dr. Nelio Alves
-
-Siga-nos:
+###### DevSuperior - sua carreira dev com fundamento de ensino superior
 
 [![Image](https://s3-sa-east-1.amazonaws.com/educandoweb.com.br/img/devsuperior/bt-youtube.png "DevSuperior no Youtube")](https://www.youtube.com/channel/UC3twHmWQwtqEO7u-gB_2f7g) [![Image](https://s3-sa-east-1.amazonaws.com/educandoweb.com.br/img/devsuperior/bt-facebook.png "DevSuperior no Facebook")](https://www.youtube.com/channel/UC3twHmWQwtqEO7u-gB_2f7g) [![Image](https://s3-sa-east-1.amazonaws.com/educandoweb.com.br/img/devsuperior/bt-instagram.png "DevSuperior no Instagram")](https://www.youtube.com/channel/UC3twHmWQwtqEO7u-gB_2f7g)
 
 Assista o vídeo:
 
-[![Image](https://s3-sa-east-1.amazonaws.com/educandoweb.com.br/img/devsuperior/capa005-small.jpg "Vídeo no Youtube")](https://www.youtube.com/channel/UC3twHmWQwtqEO7u-gB_2f7g)
+[![Image](https://img.youtube.com/vi/TIZ1PNH0128/mqdefault.jpg "Vídeo no Youtube")](https://www.youtube.com/channel/UC3twHmWQwtqEO7u-gB_2f7g)
 
-## O que você vai aprender?
+## Sumário
+- [O que você vai aprender](#O-que-você-vai-aprender)
+- [Pré-requisitos](#pré-requisitos)
+- [Conteúdo do arquivo CSV](#Conteúdo-do-arquivo-CSV)
+- [Código fonte em etapas](#Código-fonte-em-etapas)
+  - [Etapa 1: Leitura simples com File e Scanner](#Etapa-1-Leitura-simples-com-File-e-Scanner)
+  - [Etapa 2: FileReader e BufferedReader com controle manual](#Etapa-2-FileReader-e-BufferedReader-com-controle-manual)
+  - [Etapa 3: Usando bloco 'try with resources'](#Etapa-3-Usando-bloco-try-with-resources)
+
+## O que você vai aprender
 - Classes File, Scanner, IOException
 - Classes FileReader, BufferedReader
 - Block try-catch-finally para controle manual dos recursos
@@ -28,7 +34,7 @@ Assista o vídeo:
   - Construtores, encapsulamento
   - Coleções (List)
 
-## Conteúdo do arquivo .CSV
+## Conteúdo do arquivo CSV
 
 ```
 Name,Price,Quantity
@@ -46,7 +52,7 @@ TV LED 70;3500,89;8
 
 ## Código fonte em etapas
 
-#### Etapa 1: leitura simples com File e Scanner
+### Etapa 1: Leitura simples com File e Scanner
 
 ```java
 package application;
@@ -79,7 +85,7 @@ public class Program {
 }
 ```
 
-#### Etapa 2: FileReader e BufferedReader com controle manual
+### Etapa 2: FileReader e BufferedReader com controle manual
 
 ```java
 package application;
@@ -124,7 +130,7 @@ public class Program {
 }
 ```
 
-#### Etapa 3: Usando bloco "try with resources"
+### Etapa 3: Usando bloco 'try with resources'
 
 ```java
 package application;
